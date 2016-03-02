@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway");
 
 #gusbus{
-  background-color: #333;
-  color:#fff;
+  background-color: #fff;
+  color:#333;
   font-family: 'Raleway', sans-serif;
 }
 #quote-maker h1{
@@ -16,7 +16,7 @@
 .quote{
   height: 300px;
   width: 400px;
-  border: 2px solid #fff;
+  border: 4px solid #333;
   border-radius: 0;
   margin: 0 auto;
   padding: 30px;
@@ -30,6 +30,28 @@
 }
 .press{
   cursor: pointer;
+}
+
+.sm-icons{
+  margin: 10px 0px 0px 50px;
+}
+.sm-icons a{
+  color: #333;
+}
+.sm-icons a:hover{
+  color:#333;
+}
+
+.fa-facebook{
+    border: 4px solid #333;
+    padding: 4px 10px;
+    border-radius: 100%
+}
+.fa-twitter{
+  border: 4px solid #333;
+  padding: 4px 5px;
+  border-radius: 100%
+
 }
 
 @media (max-width: 500px) {
