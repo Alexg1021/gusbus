@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+
+#gusbus{
+  background-color: #333;
+  color:#fff;
+  font-family: 'Raleway', sans-serif;
+}
+#quote-maker h1{
+  text-align: center;
+}
+.text-box{
+  width: 500px;
+  height: 400px;
+  margin: 0 auto;
+}
+.quote{
+  height: 300px;
+  width: 400px;
+  border: 2px solid #fff;
+  border-radius: 0;
+  margin: 0 auto;
+  padding: 30px;
+  font-size: 20px;
+  text-align: center;
+}
+.icon-box{
+  width: 40px;
+  height: 45px;
+  margin: 5px auto;
+}
+.press{
+  cursor: pointer;
+}
+
+@media (max-width: 500px) {
+  .text-box{
+    width: 350px;
+    height: 250px;
+  }
+  .quote{
+    height: 200px;
+    width: 300px;
+    font-size: 16px;
+  }
+}
